@@ -1,5 +1,17 @@
-**/.cache/
-**/*.log
-**/*.pcap
-**/.bash_history
-**/.Xauthority
+# OS / user files
+.cache/
+.bash*
+.Xauthority
+
+# Apache runtime
+apache/mods-available/
+apache/mods-enabled/
+apache/apache2/
+
+# Logs
+*.log
+*.pid
+
+# Temp
+tmp/
+
